@@ -32,6 +32,10 @@ a,
     font-weight: 200;
 }
 
+.under_title {
+    margin-bottom: 16px;
+}
+
 .main_title {
     font-size: 48px;
     font-weight: 800;
@@ -67,6 +71,15 @@ button:hover {
     gap: 56px;
 }
 
-.under_title {
-    margin-bottom: 16px;
+.action {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
