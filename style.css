@@ -4,10 +4,6 @@ body {
     font-family: "Roboto";
 }
 
-div {
-    
-}
-
 .header {
     background-color: #1F2937;
     padding: 16px 150px 100px;
@@ -71,15 +67,40 @@ button:hover {
     gap: 56px;
 }
 
-.action {
+.info {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 64px;
 }
 
-.info {
+.info_title {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin: 32px;
+}
+
+.dogs {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.dog_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #3882f6;
+    object-position: 25% 10%;
+    border-radius: 12px;
+}
+
+.under_dog {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
 }
