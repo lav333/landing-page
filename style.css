@@ -172,3 +172,11 @@ button:hover {
     font-size: 15px;
     padding: 3px 32px;
 }
+
+.footer {
+    color: white;
+    text-align: center;
+    background-color: #1f2937;
+    font-size: small;
+    padding: 30px;
+}
