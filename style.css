@@ -38,7 +38,7 @@ a,
     color: #f9faf8;
 }
 
-button {
+.header_button {
     background-color: #3882f6;
     color: white;
     border: 0;
@@ -139,4 +139,36 @@ button:hover {
     text-align: right;
     font-weight: 700;
     font-size: 24px;
+}
+
+.action {
+    margin: 100px auto;
+    background-color: #3882f6;
+    max-width: fit-content;
+    padding: 30px 80px;
+    border-radius: 8px;
+    display: flex;
+    gap: 80px;
+}
+
+.action_text {
+    color: white;
+}
+
+.action_big {
+    font-size: large;
+    font-weight: 600;
+}
+
+.action_small {
+    font-size: small;
+}
+
+.action_button {
+    border: 1px solid white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    padding: 3px 32px;
 }
