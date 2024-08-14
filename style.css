@@ -104,8 +104,23 @@ button:hover {
     height: 200px;
     object-fit: cover;
     border: 3px solid #3882f6;
-    object-position: 25% 10%;
     border-radius: 12px;
+}
+
+.gs {
+    object-position:70%;
+}
+
+.gr {
+    object-position: 40%;
+}
+
+.ld {
+    object-position: 60%;
+}
+
+.lb {
+    object-position: 10%;
 }
 
 .under_dog {
